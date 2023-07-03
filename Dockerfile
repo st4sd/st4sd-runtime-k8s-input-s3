@@ -7,7 +7,7 @@ ARG base_image=quay.io/st4sd/official-base/st4sd-runtime-core
 
 FROM $base_image
 
-RUN mkdir /workdir
+RUN mkdir -p /workdir
 
 WORKDIR /workdir
 
